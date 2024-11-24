@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # Load the face detection classifier (Ensure the path to your Haar Cascade is correct)
-face_classifier = cv2.CascadeClassifier(r'A:\face-detection\haarcascade_frontalface_default.xml')
+face_classifier = cv2.CascadeClassifier(r'haarcascade_frontalface_default.xml')
 
 # Function to capture and process the webcam feed
 def generate_frames():
